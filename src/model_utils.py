@@ -4,7 +4,6 @@ from transformers import BertConfig
 from bert_modeling import BertForSequenceClassification
 
 # bert-base-multilingual-cased 아키텍처와 동일한 기본 설정값.
-# 사전 학습된 가중치 없이 동일한 구조를 로컬 코드로만 초기화할 때 사용한다.
 BERT_BASE_CONFIG = {
     "vocab_size": 119547,          # bert-base-multilingual-cased 어휘 사전 크기
     "hidden_size": 768,            # 히든 레이어 차원 수

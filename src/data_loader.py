@@ -1,5 +1,5 @@
 import pandas as pd
-from datasets import Dataset, DatasetDict
+from datasets import Dataset, DatasetDict # TODO: huggingface dataset 말고 pytorch dataset 상속 받고 collate fn도 직접 만들어서 해보기(멀티모달 데이터 처리하려면 필수임).
 from transformers import BertTokenizer
 
 
